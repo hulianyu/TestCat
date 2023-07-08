@@ -30,7 +30,7 @@ source('TestCat.R')
 TestCat(ODS_x)
 TestCat(CRDS_x)
 
-## Run Count_attribute_pairs
-source('Count_attribute_pairs.R')
-Count_attribute_pairs(ODS_x)
-Count_attribute_pairs(CRDS_x)
+## Run count_attribute_pairs
+source('count_attribute_pairs.R')
+count_attribute_pairs(ODS_x)
+count_attribute_pairs(CRDS_x)

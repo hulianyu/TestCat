@@ -1,4 +1,4 @@
-function [num_pairs,total,X_edge] = Count_attribute_pairs(X)
+function [num_pairs,total,X_edge] = count_attribute_pairs(X)
 M = size(X,2); %Attribute Number
 for m=2:M
     X(:,m) = X(:,m)+max(X(:,m-1));

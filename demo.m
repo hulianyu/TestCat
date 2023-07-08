@@ -16,7 +16,7 @@ Clusterability_ODS_X = TestCat(ODS_X);
 Clusterability_CRDS_X = TestCat(CRDS_X);
 
 %% Run Count_attribute_pairs.m
-[Correlated_pairs_ODS,total,Full_list_ODS] = Count_attribute_pairs(ODS_X);
+[Correlated_pairs_ODS,total,Full_list_ODS] = count_attribute_pairs(ODS_X);
 Proportion_ODS = Correlated_pairs_ODS/total;
-[Correlated_pairs_CRDS,total,Full_list_CRDS] = Count_attribute_pairs(CRDS_X);
+[Correlated_pairs_CRDS,total,Full_list_CRDS] = count_attribute_pairs(CRDS_X);
 Proportion_CRDS = Correlated_pairs_CRDS/total;

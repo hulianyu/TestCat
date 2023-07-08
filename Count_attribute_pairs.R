@@ -1,4 +1,4 @@
-Count_attribute_pairs <- function(x) {
+count_attribute_pairs <- function(x) {
   threshold <- 2
   M <- ncol(x) # Get attribute number of data set
   total <- 0
