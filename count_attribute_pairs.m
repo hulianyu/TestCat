@@ -1,4 +1,4 @@
-function [num_pairs,total,X_edge] = count_attribute_pairs(X)
+function [num_pairs,total,X_edge] = Count_attribute_pairs(X)
 M = size(X,2); %Attribute Number
 for m=2:M
     X(:,m) = X(:,m)+max(X(:,m-1));
@@ -32,4 +32,5 @@ for m1=1:M-1
 end
 num_pairs = sum(X_edge(:,4));
 total = size(X_edge,1);
+X_edge = array2table(X_edge, 'VariableNames', {'Attribute: A', 'Attribute: B', 'standardized residuals', 'strongly correlated (Y/N)'});
 end
