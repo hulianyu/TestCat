@@ -1,7 +1,5 @@
 # TestCat
-assess the clusterability of categorical data
-
-
+assess the clusterability of categorical data [![DOI](https://zenodo.org/badge/660497386.svg)](https://zenodo.org/badge/latestdoi/660497386)
 
 To run the testing-based approach, execute `demo.m` (for Matlab) or `demo.R` (for R). These scripts call the functions defined in `TestCat.m` or `TestCat.R`, and `count_attribute_pairs.m` or `Count_attribute_pairs.R` respectively.
 
