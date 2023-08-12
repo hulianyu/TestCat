@@ -14,9 +14,9 @@ s_m = 999
 s_adjust = TRUE
 s_digits = 0
 s_setseed = 123
-#### Load Categorical-to-Numerical(CDE+CDCDR) file ####
+#### Load Categorical-to-Numerical file ####
 # Set the path of the specific subdirectory
-my_dir <- "Categorical-to-Numerical(CDE+CDCDR)"
+my_dir <- "Categorical-to-Numerical"
 # Get the paths of the .txt files in the subdirectory
 txt_paths <- list.files(my_dir, pattern = "\\.txt$", recursive = TRUE, full.names = TRUE)
 # Read all TXT files
