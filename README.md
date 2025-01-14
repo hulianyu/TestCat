@@ -10,3 +10,15 @@ For the compared methods, the following scripts run the respective methods:
 - `DistanceMethods.R` (2 methods): Dip-dist, Silv-dist
 - `DimensionalityReductionMethods.R` (6 methods): MDS Dip, MDS Silv, tSNE Dip, tSNE Silv, UMAP Dip, UMAP Silv
 - `EmbeddingMethods.R` (4 methods): PCA Dip, PCA Silv, SPCA Dip, SPCA Silv
+
+## Citation
+
+If you find my code useful please consider citing:
+
+    @article{Hu2025Clusterability,
+      title={Clusterability test for categorical data},
+      author={Hu, Lianyu and Dong, Junjie and Jiang, Mudi and Liu, Yan and He, Zengyou},
+      journal={Knowledge and Information Systems},
+      year={2025},
+      doi={10.1007/s10115-024-02317-x}
+    }
