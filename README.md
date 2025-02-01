@@ -1,5 +1,5 @@
 # Clusterability test for categorical data
-https://link.springer.com/article/10.1007/s10115-024-02317-x [[PDF] arxiv.org]([https://github.com/JinfengHe/SigISC](https://arxiv.org/pdf/2307.07346))
+https://link.springer.com/article/10.1007/s10115-024-02317-x [[PDF] arxiv.org](https://arxiv.org/pdf/2307.07346)
 
 [![DOI](https://zenodo.org/badge/660497386.svg)](https://zenodo.org/badge/latestdoi/660497386)
 
