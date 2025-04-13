@@ -24,5 +24,8 @@ If you find my code useful please consider citing:
       author={Hu, Lianyu and Dong, Junjie and Jiang, Mudi and Liu, Yan and He, Zengyou},
       journal={Knowledge and Information Systems},
       year={2025},
+      number={5},
+      pages={4113--4138},
+      volume={67},
       doi={10.1007/s10115-024-02317-x}
     }
